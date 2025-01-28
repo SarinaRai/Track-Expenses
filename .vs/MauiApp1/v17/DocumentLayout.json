@@ -1,0 +1,500 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\cleardebt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\cleardebt.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\cleardebt.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\cleardebt.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\model\\applicationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\model\\applicationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\home.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\home.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\debts.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\debts.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\debts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\debts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\trans.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\trans.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\trans.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\trans.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\cashin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\cashin.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\cashin.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\cashin.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\layout\\homelayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\layout\\homelayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\cashout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\cashout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\layout\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\services\\mainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\services\\mainservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\login.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\services\\stateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\services\\stateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\register.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\register.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\pages\\cashout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\pages\\cashout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|c:\\users\\lahaa\\onedrive\\desktop\\daily-expenses\\mauiapp1\\mauiapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{24F13B03-87A4-4686-94D0-F20F2DE3714B}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\mauiapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClearDebt.razor.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\ClearDebt.razor.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\ClearDebt.razor.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\ClearDebt.razor.cs",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\ClearDebt.razor.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAmwI4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T09:05:00.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationModel.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Model\\ApplicationModel.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Model\\ApplicationModel.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Model\\ApplicationModel.cs",
+              "RelativeToolTip": "MauiApp1\\Components\\Model\\ApplicationModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:40:02.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClearDebt.razor",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\ClearDebt.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\ClearDebt.razor",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\ClearDebt.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\ClearDebt.razor",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T09:04:37.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.razor.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Home.razor.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Home.razor.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Home.razor.cs",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Home.razor.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAYwM8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T13:36:02.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAowJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T08:21:26.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Debts.razor.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Debts.razor.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Debts.razor.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Debts.razor.cs",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Debts.razor.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAswFYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T09:02:45.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T09:15:03.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cashin.razor",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Cashin.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Cashin.razor",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Cashin.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Cashin.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAEUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T08:58:07.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cashin.razor.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Cashin.razor.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Cashin.razor.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Cashin.razor.cs",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Cashin.razor.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAnwCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T09:00:00.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Debts.razor",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Debts.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Debts.razor",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Debts.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Debts.razor",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T09:02:26.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "MauiApp1\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\wwwroot\\index.html",
+              "RelativeToolTip": "MauiApp1\\wwwroot\\index.html",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-04T08:22:05.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Trans.razor.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Trans.razor.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Trans.razor.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Trans.razor.cs",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Trans.razor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T09:04:07.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Trans.razor",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Trans.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Trans.razor",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Trans.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Trans.razor",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T09:03:37.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeLayout.razor",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Layout\\HomeLayout.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Layout\\HomeLayout.razor",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Layout\\HomeLayout.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Layout\\HomeLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T17:43:38.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Cashout.razor",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Cashout.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Cashout.razor",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Cashout.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Cashout.razor",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T09:00:12.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Layout\\NavMenu.razor.css",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Layout\\NavMenu.razor.css",
+              "RelativeToolTip": "MauiApp1\\Components\\Layout\\NavMenu.razor.css",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-16T19:34:26.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\MainPage.xaml",
+              "RelativeToolTip": "MauiApp1\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T10:07:02.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainService.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Services\\MainService.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Services\\MainService.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Services\\MainService.cs",
+              "RelativeToolTip": "MauiApp1\\Services\\MainService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:44:59.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T17:51:01.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.razor.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Login.razor.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Login.razor.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Login.razor.cs",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Login.razor.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAMwFEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:57:01.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StateService.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Services\\StateService.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Services\\StateService.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Services\\StateService.cs",
+              "RelativeToolTip": "MauiApp1\\Services\\StateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T09:28:14.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\MauiProgram.cs",
+              "RelativeToolTip": "MauiApp1\\MauiProgram.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:49:49.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.razor.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Register.razor.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Register.razor.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Register.razor.cs",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Register.razor.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAuwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T08:38:31.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Register.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Register.razor",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Register.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Register.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T17:51:18.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Cashout.razor.cs",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Cashout.razor.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Pages\\Cashout.razor.cs",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Pages\\Cashout.razor.cs",
+              "RelativeToolTip": "MauiApp1\\Components\\Pages\\Cashout.razor.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAMwCAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T09:00:42.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Dell\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Dell\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\Dell\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt",
+              "RelativeToolTip": "..\\..\\..\\..\\Dell\\.nuget\\packages\\communitytoolkit.maui\\8.0.1\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-04T13:30:16.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "MauiApp1\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "MauiApp1\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T10:08:01.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\App.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\App.xaml",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\App.xaml",
+              "RelativeToolTip": "MauiApp1\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-04T10:07:04.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MauiApp1.csproj",
+              "DocumentMoniker": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\MauiApp1.csproj",
+              "RelativeDocumentMoniker": "MauiApp1\\MauiApp1.csproj",
+              "ToolTip": "C:\\Users\\lahaa\\OneDrive\\Desktop\\Daily-Expenses\\MauiApp1\\MauiApp1.csproj",
+              "RelativeToolTip": "MauiApp1\\MauiApp1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-04T08:44:28.205Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

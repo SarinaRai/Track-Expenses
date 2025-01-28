@@ -1,0 +1,100 @@
+﻿@page "/trans"
+@layout MainLayout
+@inject MainService DataService
+@inject StateService StateService
+@inject NavigationManager NavigationManager
+@using MauiApp1.Components.Model
+@using MauiApp1.Components.Layout
+@using MauiApp1.Services
+@inject IJSRuntime JSRuntime
+
+<div class="min-h-screen bg-emerald-50 p-8">
+    <div class="mb-8 rounded-xl bg-white p-6 shadow-lg">
+        <h1 class="mb-6 text-3xl font-bold text-emerald-800">Transactions</h1>
+        <!-- Export Button -->
+        <div class="mt-4 flex justify-end">
+            <button class="bg-green-600 text-white px-8 py-2 rounded-lg shadow-md hover:bg-green-700 focus:ring-2 focus:ring-green-300"
+                    @onclick="ExportTransactions">
+                Export
+            </button>
+        </div>
+        <!-- Filters Section -->
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-3">
+            <!-- Sort Order Dropdown -->
+            <div class="space-y-2">
+                <label for="sortOrder" class="text-sm font-medium text-emerald-700">Transaction Date</label>
+                <select id="sortOrder"
+                        class="w-full rounded-lg border border-emerald-200 px-4 py-2.5 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/50"
+                        @onchange="OnSortOrderChanged">
+                    <option value="desc" selected="@IsDescending">New Transactions</option>
+                    <option value="asc" selected="@IsAscending">Old Transactions</option>
+                </select>
+            </div>
+
+            <!-- Transaction Type Dropdown -->
+            <!-- Transaction Type Dropdown -->
+            <div class="space-y-2">
+                <label for="transactionType" class="text-sm font-medium text-emerald-700">Transaction Type</label>
+                <select id="transactionType"
+                        class="w-full rounded-lg border border-emerald-200 px-4 py-2.5 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/50"
+                        @onchange="OnTransactionTypeChanged">
+                    <option value="All" selected="@IsAll">All</option>
+                    <option value="Credit" selected="@IsCredit">Credit</option>
+                    <option value="Debit" selected="@IsDebit">Debit</option>
+                </select>
+            </div>
+
+
+            <!-- Tag Search -->
+            <div class="space-y-2">
+                <label for="tag" class="text-sm font-medium text-emerald-700">Tag</label>
+                <div class="flex space-x-2">
+                    <input id="tag" @bind="tags" placeholder="Enter Labels"
+                           class="w-full rounded-lg border border-emerald-200 px-4 py-2.5 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/50" />
+                    <button @onclick="SearchByTags"
+                            class="rounded-lg bg-green-600 px-6 py-2.5 text-white transition-colors hover:bg-emerald-700 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2">
+                        Search
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Transactions Table -->
+    <div class="overflow-hidden rounded-xl bg-white shadow-lg">
+        <table class="w-full border-collapse text-left">
+            <thead>
+                <tr class="bg-emerald-100">
+                    <th class="px-6 py-4 text-sm font-semibold text-emerald-800">Amount</th>
+                    <th class="px-6 py-4 text-sm font-semibold text-emerald-800">Label</th>
+                    <th class="px-6 py-4 text-sm font-semibold text-emerald-800">Notes</th>
+                    <th class="px-6 py-4 text-sm font-semibold text-emerald-800">Transaction Type</th>
+                    <th class="px-6 py-4 text-sm font-semibold text-emerald-800">Transaction Date</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-emerald-100">
+                @if (transactions.Any())
+                {
+                    @foreach (var transaction in transactions)
+                    {
+                        <tr class="hover:bg-emerald-50">
+                            <td class="px-6 py-4 text-emerald-900">@transaction.Amount</td>
+                            <td class="px-6 py-4 text-emerald-900">@transaction.Label</td>
+                            <td class="px-6 py-4 text-emerald-900">@transaction.Notes</td>
+                            <td class="px-6 py-4">
+                                @transaction.TransactionType
+                            </td>
+                            <td class="px-6 py-4 text-emerald-900">@transaction.TransactionDateTime.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" class="px-6 py-8 text-center text-emerald-500">No transactions found.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

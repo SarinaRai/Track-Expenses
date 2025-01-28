@@ -1,0 +1,145 @@
+﻿@page "/dashboard"
+@using System.Globalization
+@using MauiApp1.Services
+@using MauiApp1.Components.Model
+@using MauiApp1.Components.Layout
+@inject MainService DataService
+@inject StateService StateService
+
+<PageTitle>Dashboard</PageTitle>
+
+<div class="min-h-screen bg-gray-50">
+    <!-- Main Content -->
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <!-- Welcome Section -->
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+            <div class="flex justify-between items-center">
+                <div>
+                    <img src="https://imgs.search.brave.com/uVyrESJmLKioPZLr6R2gOVdv-REXG06xz_GueeSONZs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXB1/YmxpY2FpbWcubmFn/YXJpa25ld3NjZG4u/Y29tL3NoYXJlZC93/ZWIvdXBsb2Fkcy9t/ZWRpYS9OYWJpbC1C/YW5rXzIwMjAwMzEy/MDgxMTUwLmpwZw"
+                         class="h-12 w-40 mb-2" />
+
+                    <h1 class="text-2xl font-semibold text-gray-800">Welcome, @StateService.UserName</h1>
+                    <div class="text-lg text-gray-700 font-medium">Rs. @TotalAmount</div>
+                    <div class="text-sm text-gray-500">Your Balance</div>
+                    <p class="mt-2 text-gray-600">Total Transactions: <span class="font-medium">@TotalTransactions</span></p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center space-x-2">
+                        <input type="datetime-local" @bind="StartDate" class="border border-gray-300 rounded px-3 py-2 text-sm" />
+                        <input type="datetime-local" @bind="EndDate" class="border border-gray-300 rounded px-3 py-2 text-sm" />
+                    </div>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700"
+                            @onclick="FilterByDateRange">
+                        Apply Date
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Financial Overview -->
+        <div class="bg-white rounded-lg shadow-lg p-6 aspect-square">
+            <h2 class="text-lg font-semibold text-gray-800 mb-4">Financial Overview</h2>
+            <div class="space-y-4">
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-600">Current Balance:</span>
+                    <span class="text-gray-800 font-medium">@TotalAmount</span>
+                </div>
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-600">Total Inflow:</span>
+                    <span class="text-green-600 font-medium">@TotalCredit</span>
+                </div>
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-600">Total Outflow:</span>
+                    <span class="text-red-600 font-medium">@TotalDebit</span>
+                </div>
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-600">Highest Inflow:</span>
+                    <span class="text-green-600 font-medium">@HighestInflow</span>
+                </div>
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-600">Highest Outflow:</span>
+                    <span class="text-red-600 font-medium">@HighestOutflow</span>
+                </div>
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-600">Highest Debt:</span>
+                    <span class="text-yellow-600 font-medium">@HighestDebt</span>
+                </div>
+                <div class="flex justify-between items-center">
+                    <span class="text-gray-600">Remaining Debt:</span>
+                    <span class="text-yellow-600 font-medium">@RemainingDebt</span>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <!-- Statistics Section -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-4">
+            <!-- Top 5 Highest Transactions -->
+            <div class="bg-white rounded-lg shadow-lg p-6  mb-6">
+                <h2 class="text-xl font-semibold text-gray-800">Top 5 Highest Transactions</h2>
+                <table class="w-full border-collapse text-left mt-4">
+                    <thead>
+                        <tr class="bg-emerald-100">
+                            <th class="px-6 py-4 text-sm font-semibold text-emerald-800">Amount</th>
+                            <th class="px-6 py-4 text-sm font-semibold text-emerald-800">Label</th>
+                            <th class="px-6 py-4 text-sm font-semibold text-emerald-800">Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Top5HighestTransactions.Any())
+                        {
+                            @foreach (var transaction in Top5HighestTransactions)
+                            {
+                                <tr class="hover:bg-emerald-50">
+                                    <td class="px-6 py-4 text-emerald-900">@transaction.Amount</td>
+                                    <td class="px-6 py-4 text-emerald-900">@transaction.Tags</td>
+                                    <td class="px-6 py-4 text-emerald-900">@transaction.TransactionDate.ToString("yyyy-MM-dd")</td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="3" class="px-6 py-4 text-center text-emerald-500">No transactions found.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Top 5 Lowest Transactions -->
+            <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                <h2 class="text-xl font-semibold text-gray-800">Top 5 Lowest Transactions</h2>
+                <table class="w-full border-collapse text-left mt-4">
+                    <thead>
+                        <tr class="bg-emerald-100">
+                            <th class="px-6 py-4 text-sm font-semibold text-emerald-800">Amount</th>
+                            <th class="px-6 py-4 text-sm font-semibold text-emerald-800">Label</th>
+                            <th class="px-6 py-4 text-sm font-semibold text-emerald-800">Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Top5LowestTransactions.Any())
+                        {
+                            @foreach (var transaction in Top5LowestTransactions)
+                            {
+                                <tr class="hover:bg-emerald-50">
+                                    <td class="px-6 py-4 text-emerald-900">@transaction.Amount</td>
+                                    <td class="px-6 py-4 text-emerald-900">@transaction.Tags</td>
+                                    <td class="px-6 py-4 text-emerald-900">@transaction.TransactionDate.ToString("yyyy-MM-dd")</td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="3" class="px-6 py-4 text-center text-emerald-500">No transactions found.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+</div>

@@ -1,0 +1,68 @@
+﻿@page "/register"
+@using MauiApp1.Services
+@using MauiApp1.Components.Layout
+@layout HomeLayout
+@inject MainService MainService
+@inject NavigationManager NavigationManager
+@using MauiApp1.Components.Model
+
+
+<body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="w-full max-w-md bg-white rounded-lg shadow-md p-8">
+        <h3 class="text-2xl font-semibold text-center text-gray-800 mb-6">Register</h3>
+
+        <form class="space-y-4" @onsubmit="RegisterUser">
+            <!-- Username Input -->
+            <div class="flex flex-col">
+                <label for="username" class="mb-1 text-sm font-medium text-gray-700">Username</label>
+                <input id="username" @bind="Username"
+                       class="px-4 py-2 border rounded-lg focus:ring focus:ring-blue-300 focus:outline-none border-gray-300"
+                       required />
+            </div>
+
+            <!-- Email Input -->
+            <div class="flex flex-col">
+                <label for="email" class="mb-1 text-sm font-medium text-gray-700">Email</label>
+                <input id="email" @bind="Email" type="email"
+                       class="px-4 py-2 border rounded-lg focus:ring focus:ring-blue-300 focus:outline-none border-gray-300"
+                       required />
+            </div>
+
+            <!-- Password Input -->
+            <div class="flex flex-col">
+                <label for="password" class="mb-1 text-sm font-medium text-gray-700">Password</label>
+                <input id="password" @bind="Password" type="password"
+                       class="px-4 py-2 border rounded-lg focus:ring focus:ring-blue-300 focus:outline-none border-gray-300"
+                       required />
+            </div>
+
+            <!-- Confirm Password Input -->
+            <div class="flex flex-col">
+                <label for="confirmPassword" class="mb-1 text-sm font-medium text-gray-700">Confirm Password</label>
+                <input id="confirmPassword" @bind="ConfirmPassword" type="password"
+                       class="px-4 py-2 border rounded-lg focus:ring focus:ring-blue-300 focus:outline-none border-gray-300"
+                       required />
+            </div>
+
+            <!-- Display Registration Message -->
+            @if (!string.IsNullOrEmpty(Message))
+            {
+                <p class="text-center mt-2 @(Message.Contains("Registration successful!") ? "text-green-500" : "text-red-500")">
+                    @Message
+                </p>
+            }
+
+            <!-- Submit Button -->
+            <button type="submit"
+                    class="w-full py-2 px-4 bg-green-500 text-white rounded-lg hover:bg-green-600 focus:ring focus:ring-green-300 focus:outline-none">
+                Register
+            </button>
+
+            <!-- Link to Login -->
+            <div class="block mt-2 text-center">
+                <label class="text-black">Already have an account? </label>
+                <a href="/" class="text-red-500 hover:underline">Login</a>
+            </div>
+        </form>
+    </div>
+</body>

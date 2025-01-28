@@ -1,0 +1,59 @@
+.nav-item {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type {
+        padding-bottom: 1rem;
+    }
+
+    /* Align icons and text horizontally */
+    .nav-item ::deep a {
+        display: flex;
+        align-items: center;
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+    }
+
+        .nav-item ::deep a.active {
+            background-color: rgba(255, 255, 255, 0.37);
+            color: white;
+        }
+
+        .nav-item ::deep a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+
+        /* Adjust spacing between icon and text */
+        .nav-item ::deep a span {
+            margin-left: 0.5rem;
+        }
+
+/* Sidebar styles */
+.nav-scrollable {
+    display: none;
+}
+
+.navbar-toggler:checked ~ .nav-scrollable {
+    display: block;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .nav-scrollable {
+        display: block;
+        height: calc(100vh - 3.5rem);
+        overflow-y: auto;
+    }
+}

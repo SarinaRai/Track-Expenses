@@ -1,0 +1,71 @@
+﻿@page "/cashin"
+@layout MainLayout
+@inject MainService MainService
+@inject StateService StateService
+@inject NavigationManager NavigationManager
+@using MauiApp1.Components.Model
+@using MauiApp1.Components.Layout
+@using MauiApp1.Services
+
+<div class="page-container flex justify-center items-center mt-12">
+    <div class="form-container flex flex-col justify-between h-full w-full sm:w-11/12 md:w-96 lg:w-96 xl:w-96 bg-white p-6 rounded-lg shadow-lg max-h-full sm:max-h-[80vh] overflow-auto border border-gray-200">
+        <h3 class="text-3xl font-bold text-center text-gray-800 mb-2"> Cash In</h3>
+        <span class="text-blue-600 italic text-center">"Track Your Expenses."</span>
+
+        <div class="flex flex-col gap-6">
+            <!-- Amount Input -->
+            <div class="flex flex-col gap-2">
+                <label for="amount" class="text-sm font-medium text-gray-600">Amount</label>
+                <input id="amount" type="text" placeholder="Enter Amount"
+                       class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500"
+                       @bind="AmountInput"
+                       @oninput="ValidateAmount" />
+            </div>
+
+            <!-- Label Input (Select Dropdown) -->
+            <div class="flex flex-col gap-2">
+                <label for="label" class="text-sm font-medium text-gray-600">Label</label>
+                <select id="label"
+                        class="mt-1 w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500"
+                        @bind="Tag">
+                    <option value="" disabled>Select an option</option>
+                    <option value="yearly">Yearly</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="rent">Rent</option>
+                    <option value="groceries">Groceries</option>
+                    <option value="salary">Salary</option>
+                    <option value="food">Food</option>
+                    <option value="drinks">Drinks</option>
+                    <option value="clothes">Clothes</option>
+                    <option value="miscellaneous">Miscellaneous</option>
+                    <option value="fuel">Fuel</option>
+                    <option value="emi">EMI</option>
+                    <option value="party">Party</option>
+                </select>
+            </div>
+
+            <!-- Notes Textarea -->
+            <div class="flex flex-col gap-2">
+                <label for="notes" class="text-sm font-medium text-gray-600">Notes</label>
+                <textarea id="notes" placeholder="Enter any additional notes"
+                          class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none resize-none focus:ring-1 focus:ring-blue-500"
+                          @bind="Notes"></textarea>
+            </div>
+
+            @if (!string.IsNullOrEmpty(Message))
+            {
+                    <p class="text-center mt-2 @(Message.Contains("Transaction successfully created!") ? "text-green-500" : "text-red-500")">
+                    @Message
+                    </p>
+            }
+
+            <!-- Cash In Button -->
+            <div>
+                <button class="w-full px-2 py-2 font-semibold text-white bg-blue-500 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        @onclick="Cashinasync">
+                    Cash In
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
